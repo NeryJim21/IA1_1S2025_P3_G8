@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Robot en Laberinto 3D</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="info">Selecciona un algoritmo y haz clic en Iniciar</div>
+    <div id="controls">
+        <select id="algorithm">
+            <option value="BFS">BFS (Anchura)</option>
+            <option value="DFS">DFS (Profundidad)</option>
+            <option value="Dijkstra">Dijkstra</option>
+            <option value="AStar">A*</option>
+            <option value="CU">Costo Uniforme</option>
+        </select>
+        <button id="start">Iniciar</button>
+        <button id="reset">Reiniciar</button>
+        <button id="stop">Detener</button>
+        <button id="json">Cargar JSON</button>
+    </div>
+    <!-- <div id="controls"></div> -->
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/astar.js"></script>
+    <script src="js/bfs.js"></script>
+    <script src="js/dfs.js"></script>
+    <script src="js/dijkstra.js"></script>
+    <script src="js/uniformcost.js"></script>
+</body>
+</html>
