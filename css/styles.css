@@ -1,0 +1,53 @@
+body { 
+    margin: 0;
+    overflow: hidden;
+}
+#info {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: black;
+}
+#controls {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+}
+button {
+    padding: 10px;
+    margin: 0 5px;
+}
+
+
+/* 
+
+
+
+body { 
+    margin: 0; 
+    overflow: hidden; 
+    font-family: Arial, sans-serif;
+}
+#info { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    z-index: 100;
+}
+#controls { 
+    position: absolute; 
+    bottom: 20px; 
+    width: 100%; 
+    text-align: center; 
+    z-index: 100;
+}
+button, select { 
+    padding: 10px; 
+    margin: 0 5px; 
+    background: rgba(255,255,255,0.8);
+    border: none;
+    border-radius: 4px;
+} */
